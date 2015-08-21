@@ -12,6 +12,10 @@ $lastname 	= $_POST['lastname'];
 $email 		= $_POST['email'];
 $phone 		= $_POST['phone'];
 $attendance	= $_POST['radio'];
+$adultselect = $_POST['adultselect'];
+$kidselect	= $_POST['kidselect'];
+$song	= $_POST['song'];
+
 
 // Check that all required inputs are not empty.
 if(empty($firstname) || empty($lastname) || empty($attendance) || empty($email) || empty($phone) ) {
@@ -33,6 +37,12 @@ Name: {$firstname} {$lastname}
 Email: {$email}
 Phone: {$phone}
 Attendance: {$attendance}
+
+Extras
+=================================
+Number of adults: {$adultselect}
+Number of children: {$kidselect}
+Song of choice: {$song}
 
 TEXT;
 

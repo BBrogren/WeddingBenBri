@@ -34,7 +34,6 @@ $(document).ready(function() {
 	function backStrech() {
 		$("aside").backstretch([
 			"img/placeholder-1.jpg",
-			
 			], {duration: 4000, fade: 1000});
 	}
 
